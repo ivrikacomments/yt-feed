@@ -1,0 +1,60 @@
+.paper{background-position:center 65%}
+.slide-footer span{background:none;padding:0;position:static}
+#page-number{display:none}
+.phrase-he{font-size:90px;line-height:1.43}
+.phrase-card{padding:17px 20px 19px}
+.phrase-trans{font-size:29px;margin:6px 0}
+.phrase-ru{font-size:26px;margin:4px 0}
+.focus-letter{background:none;border-radius:0;color:var(--ink)}
+.focus-letter:after{display:none}
+.nikud-ring.above{top:53px;left:calc(50% - 86px)}
+.nikud-ring.shuruk{top:115px;left:calc(50% - 95px);width:82px;height:65px}
+.single-nikud{display:block;width:110px;height:110px}
+.giant-vowel .equals:empty,.giant-vowel .russian:empty{display:none}
+.phrase-translation{font-size:39px;font-weight:600;text-align:center;line-height:1.25;margin:16px 0 0;color:var(--ink)}
+.he-pair{display:inline-flex;flex-direction:row;direction:rtl;align-items:center;justify-content:center;gap:13px;unicode-bidi:isolate}
+.pair-glyph{display:flex;flex-direction:column;align-items:center;min-width:83px}
+.pair-row .pair-glyph .he{font-size:94px;letter-spacing:0;line-height:1.12}
+.pair-glyph small{font-family:Rubik,sans-serif;font-size:25px;font-weight:650;line-height:1.1;margin-top:3px}
+.pair-arrow{width:58px;height:35px;color:#ca6524;flex-shrink:0;direction:ltr}
+.pair-row{padding-block:12px;grid-template-columns:190px 1fr 220px}
+.cover-pairs{gap:8px;padding:15px 10px}
+.cover-pairs .he-pair{flex:1;gap:8px}
+.cover-pairs .pair-glyph{min-width:65px}
+.cover-pairs .he{font-size:93px;line-height:1.13;padding:0;border:none!important}
+.cover-pairs .pair-arrow{width:43px}
+.vowel-diagram{height:266px;display:flex;direction:rtl;justify-content:center;align-items:center;gap:0;color:var(--ink)}
+.vowel-diagram .diagram-alef{font-size:172px;line-height:1.55;min-width:0}
+.vowel-stick{display:block;width:130px;height:250px;overflow:visible;flex-shrink:0}
+.diagram-ring{transform-box:fill-box;transform-origin:center}
+.summary-unit .vowel-diagram{height:171px}
+.summary-unit .vowel-diagram .diagram-alef{font-size:114px}
+.summary-unit .vowel-stick{width:74px;height:155px}
+.summary-unit .diagram-ring{display:none}
+.speaker-caption,.speaker-shade{display:none}
+.has-speaker-title .speaker-caption,.has-speaker-title .speaker-shade{display:block}
+
+/* Version 3: project colors and Hebrew without serifs. */
+:root{--ink:#7b283a;--orange:#f19961;--active:#a8bd61;--accent-yellow:#fad177}
+.he,.word,[lang="he"]{font-family:Rubik,sans-serif!important;font-weight:500}
+.focus-letter{color:var(--orange)}.focus-kaf{color:inherit}
+.phrase-he{font-size:83px;line-height:1.6}
+.pair-row .pair-glyph .he{font-size:88px;line-height:1.3}
+.letter-tile .he{font-size:224px}
+.cover-topic{font-size:29px}
+.cover-pairs{background:#e8efd4}
+.vowels-seven .read-cell .he{font-size:127px}
+.full-practice{gap:12px}
+.full-practice .read-row{gap:9px}
+.read-grid.full-practice .read-cell{padding:8px 3px 10px;border-radius:17px}
+.read-grid.full-practice .read-cell .he{font-size:63px;line-height:1.65;white-space:nowrap}
+.read-grid.full-practice .read-cell .answer{font-size:23px;min-height:30px}
+.practice-caption{font-size:27px;padding:15px 23px;margin-top:18px}
+.summary-unit .he{font-size:108px}
+.summary-extra .he{font-size:90px}
+.nikud-ring,.dash-focus{border-color:#f19961}
+.timed .mark{opacity:0}
+.delay-answers .answer{opacity:0}
+
+/* Full pomegranate from the original brand sheet, including clear space. */
+.brand{height:120px}.brand img{width:446.666667px;left:-166.666667px;top:5px;height:auto}
